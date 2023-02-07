@@ -7,11 +7,23 @@
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
     <title>Card de produto</title>
     <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/tema.css" />
     <link rel="stylesheet" href="css/card.css" />
     <link rel="stylesheet" href="css/responsive.css" />
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/footer.css" />
   </head>
   <body>
+    <section>
+      <input type="checkbox" name="change-theme" id="change-theme" />
+      <label for="change-theme">
+        <abbr title="Trocar tema"
+          ><i class="bi bi-brightness-high" id="icon-sun"></i
+        ></abbr>
+        <abbr title="Trocar tema"
+          ><i class="bi bi-moon" id="icon-moon"></i
+        ></abbr>
+      </label>
+    </section>
     <main class="card-container">
       <section class="img-container">
         <img
@@ -67,4 +79,5 @@
       </article>
     </footer>
   </body>
+  <script src="change-theme.js"></script>
 </html>
