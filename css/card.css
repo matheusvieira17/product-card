@@ -33,6 +33,7 @@
   font-family: var(--font-special);
   font-size: 2.4rem;
   line-height: 2rem;
+  color: var(--color0);
 }
 
 .img-info p {
@@ -58,19 +59,22 @@
   opacity: 0.5;
 }
 
+button i {
+  font-size: 1.6rem;
+}
+
 button {
   background-color: var(--color2);
   text-transform: uppercase;
   outline: none;
   border: none;
-  padding: 1.6rem 2.4rem;
   border-radius: 0.5rem;
+  padding: 1.6rem;
   color: var(--color4);
   font-weight: bold;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 3.2rem;
 }
 
 button:hover {
