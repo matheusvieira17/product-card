@@ -15,12 +15,15 @@
   font-size: 10px;
   --font-default: "Montserrat", sans-serif;
   --font-special: "Fraunces", serif;
-  --font-for-footer: 11px #3e52a3;
+  --shadow: 3px 6px 45px 5px #1c232b69;
   --color0: #1c232b;
-  --color1: rgb(108, 114, 137);
+  --color1: #6c7289;
   --color2: #3c8067;
   --color3: #f2ebe3;
   --color4: #ffffff;
+
+  --color-footer: #3e52a3;
+  --color-link: #171717;
 }
 
 body {
@@ -28,6 +31,8 @@ body {
   font-family: var(--font-default);
   background-color: var(--color3);
   min-height: 100vh;
+  min-width: 100vw;
+  transition: 0.1s;
   display: flex;
   flex-direction: column;
   align-items: center;
