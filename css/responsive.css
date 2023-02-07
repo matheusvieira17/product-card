@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+@media (width > 600px) {
+  .card-container {
+    display: flex;
+    max-width: 60rem;
+  }
+
+  .img-container img {
+    background-image: url("/images/image-product-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  footer {
+    padding: 1.6rem;
+  }
+}
